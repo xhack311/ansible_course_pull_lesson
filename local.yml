@@ -13,4 +13,4 @@
   ansible.builtin.apt:
     name: apache2
     state: latest
-  when: ansible_distribution == "Ubunut"
+  when: ansible_distribution == "Ubuntu"
